@@ -1,8 +1,8 @@
 Package.describe({
-  name: "yogiben:admin",
-  summary: "A complete admin dashboard solution",
+  name: "admin",
+  summary: "Fork of https://github.com/yogiben/meteor-admin",
   version: "1.2.2",
-  git: "https://github.com/yogiben/meteor-admin"
+  git: "https://github.com/DeloitteDigitalJP/meteor-admin"
 });
 
 Package.on_use(function(api){
