@@ -11,8 +11,8 @@ Package.on_use(function(api){
 
   api.versionsFrom('METEOR@1.0');
 
-  api.use(
-    ['iron:router@1.0.9',
+  api.use([
+    'iron:router@1.0.9',
     'coffeescript',
     'underscore',
     'reactive-var',
@@ -26,7 +26,8 @@ Package.on_use(function(api){
     'aldeed:tabular@1.2.0',
     'meteorhacks:unblock@1.1.0',
     'zimme:active-route@2.0.0',
-    'mfactory:admin-lte@0.0.2'
+    'mfactory:admin-lte@0.0.2',
+    'rochal:slimscroll@1.3.3'
     ],
     both);
 
@@ -53,7 +54,6 @@ Package.on_use(function(api){
     'lib/client/js/helpers.coffee',
     'lib/client/js/templates.coffee',
     'lib/client/js/events.coffee',
-    'lib/client/js/slim_scroll.js',
     'lib/client/js/autoForm.coffee'
     ], 'client');
 
