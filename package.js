@@ -1,5 +1,5 @@
 Package.describe({
-  name: "DeloitteDigitalJP:admin",
+  name: "deloittedigitaljp:admin",
   summary: "Fork of https://github.com/yogiben/meteor-admin",
   version: "1.2.2",
   git: "https://github.com/DeloitteDigitalJP/meteor-admin"
