@@ -7,7 +7,7 @@ Package.describe({
 
 Package.on_use(function(api){
 
-  both = ['client','server']
+  both = ['client','server'];
 
   api.versionsFrom('METEOR@1.0');
 
@@ -31,16 +31,16 @@ Package.on_use(function(api){
     ],
     both);
 
-  api.use(['less','session','jquery','templating'],'client')
+  api.use(['less','session','jquery','templating'],'client');
 
-  api.use(['email'],'server')
+  api.use(['email'],'server');
 
   api.add_files([
-    'lib/both/AdminDashboard.coffee',
-    'lib/both/router.coffee',
-    'lib/both/utils.coffee',
-    'lib/both/startup.coffee',
-    'lib/both/collections.coffee'
+    'lib/both/AdminDashboard.js',
+    'lib/both/router.js',
+    'lib/both/utils.js',
+    'lib/both/startup.js',
+    'lib/both/collections.js'
     ], both);
 
   api.add_files([
@@ -51,16 +51,16 @@ Package.on_use(function(api){
     'lib/client/html/admin_header.html',
     'lib/client/css/admin-custom.less',
     'lib/client/js/admin_layout.js',
-    'lib/client/js/helpers.coffee',
-    'lib/client/js/templates.coffee',
-    'lib/client/js/events.coffee',
-    'lib/client/js/autoForm.coffee'
+    'lib/client/js/helpers.js',
+    'lib/client/js/templates.js',
+    'lib/client/js/events.js',
+    'lib/client/js/autoForm.js'
     ], 'client');
 
   api.add_files([
-    'lib/server/publish.coffee',
-    'lib/server/methods.coffee'
+    'lib/server/publish.js',
+    'lib/server/methods.js'
     ], 'server');
 
-  api.export('AdminDashboard',both)
+  api.export('AdminDashboard',both);
 });

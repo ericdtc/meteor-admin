@@ -1,0 +1,4 @@
+{
+    "maxlen"        : 0,         // {int} Max number of characters per line
+    "laxbreak"      : true       // true: Tolerate possibly unsafe line breakings
+}

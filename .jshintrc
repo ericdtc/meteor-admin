@@ -1,0 +1,4 @@
+{
+    "camelcase"     : false,     // true: Identifiers must be in camelCase
+    "laxbreak"      : true       // true: Tolerate possibly unsafe line breakings
+}
